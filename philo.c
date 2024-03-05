@@ -6,7 +6,7 @@
 /*   By: mhromylo <mhromylo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/29 16:55:34 by mhromylo          #+#    #+#             */
-/*   Updated: 2024/03/01 15:18:25 by mhromylo         ###   ########.fr       */
+/*   Updated: 2024/03/05 12:24:58 by mhromylo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,8 @@ int	valid_input(char **argv)
 int	main(int argc, char **argv)
 {
 	t_task			task;
-	t_philo			philos[5];
-	pthread_mutex_t	forks[5];
+	t_philo			philos[200];
+	pthread_mutex_t	forks[200];
 
 	if (argc != 5 && argc != 6)
 		return (write(2, "wrong number of args\n", 21), 1);
