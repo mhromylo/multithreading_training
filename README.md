@@ -1,4 +1,5 @@
-Solving "Dining Philosophers Problem" throught multhy threading.
+<h1 align="center"> 🍴 Solving "Dining Philosophers Problem" throught multhy threading.</h1>
+
 Problem Statement
 The Dining Philosopher Problem involves 'n' philosophers sitting around a circular table. Each philosopher alternates between two states: thinking and eating. To eat, a philosopher needs two chopsticks, one on their left and one on their right. However, the number of chopsticks is equal to the number of philosophers, and each chopstick is shared between two neighboring philosophers.
 
